@@ -4,18 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
+    "dev": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^8.6.3",
     "@babel/core": "^7.2.2",
+    "autoprefixer": "^8.6.3",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.3",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "eslint": "^5.0.0",
@@ -36,5 +38,8 @@
     "webpack-dev-server": "^3.1.4",
     "webpack-md5-hash": "^0.0.6",
     "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "browser-sync-webpack-plugin": "^2.2.2"
   }
 }

@@ -1,3 +1,2 @@
-import "./main.scss";
-console.log("hello, world");
-console.log("Hello, world 2");
+import "./scss/main.scss";
+import 'bootstrap/dist/css/bootstrap-grid.min.css';
